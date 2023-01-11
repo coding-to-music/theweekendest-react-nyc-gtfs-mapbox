@@ -1,5 +1,5 @@
 {
-  "name": "theweekendest",
+  "name": "theweekendest-react-nyc-gtfs-mapbox",
   "version": "1.0.0",
   "description": "Real-time New York City subway map",
   "main": "index.jsx",
@@ -29,6 +29,7 @@
   },
   "scripts": {
     "start": "webpack-dev-server --history-api-fallback --inline --progress --mode=development",
+    "deploy": "git add . && git commit -m Build && git push",
     "build": "webpack -p"
   },
   "dependencies": {

@@ -1,3 +1,33 @@
+# theweekendest-react-nyc-gtfs-mapbox
+
+# 🚀 Real-time New York City subway service map 🚀
+
+https://github.com/coding-to-music/theweekendest-react-nyc-gtfs-mapbox
+
+https://theweekendest-react-nyc-gtfs-mapbox.vercel.app
+
+From / By https://github.com/blahblahblah-/theweekendest
+
+https://www.theweekendest.com
+
+## Environment variables:
+
+```java
+
+```
+
+## GitHub
+
+```java
+git init
+git add .
+git remote remove origin
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:coding-to-music/theweekendest-react-nyc-gtfs-mapbox.git
+git push -u origin main
+```
+
 # theweekendest
 
 This is a React app that relies heavily on [goodservice.io](https://github.com/blahblahblah-/goodservice-v2)'s APIs to dynamically generate real-time route maps for the New York City subway with the help of Mapbox, particularly useful when service changes regularly occur on weekends and overnights.
